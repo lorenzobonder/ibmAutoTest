@@ -1,0 +1,8 @@
+simularInvestimentoPoupancaOk,tipoUsuario,valorAplicar,valorPoupar,periodo
+                             ,Individual,2000,2500,112
+                             ,Individual,400000,300000,64
+                             ,EmpresaOuAgro,12000000,10000000,128
+simularInvestimentoComaValorAplicadoInvalido,tipoUsuario,valorAplicar,valorPoupar,periodo
+                                            ,Individual,1999,3000,160
+                                            ,Individual,500,5000,128
+                                            ,EmpresaOuAgro,10,2000,32

@@ -126,7 +126,7 @@ public class SavingsSimulationWorkflow {
         }
 
         if(Integer.parseInt(periodo) <= 0) {
-            sip.setSavingsValue(periodo);
+            sip.setSavingsPeriod(periodo);
             driver.findElement(By.id("valorInvestir")).click();
 
             try{

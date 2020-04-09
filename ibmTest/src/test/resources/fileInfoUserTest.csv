@@ -6,3 +6,11 @@ simularInvestimentoComaValorAplicadoInvalido,tipoUsuario,valorAplicar,valorPoupa
                                             ,Individual,1999,3000,160
                                             ,Individual,500,5000,128
                                             ,EmpresaOuAgro,10,2000,32
+simularInvestimentoComaValorPoupadoInvalido,tipoUsuario,valorAplicar,valorPoupar,periodo
+                                           ,Individual,2222,199,150
+                                           ,EmpresaOuAgro,5000,50,264
+                                           ,EmpresaOuAgro,100000,200,772
+simularInvestimentoComPeriodoInvalido,tipoUsuario,valorAplicar,valorPoupar,periodo
+                                     ,Individual,2222,2000,-5
+                                     ,Individual,5000,5000,-10
+                                     ,EmpresaOuAgro,100000,5000,0

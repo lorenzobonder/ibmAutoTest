@@ -1,8 +1,16 @@
-simularInvestimentoPoupancaOk,tipoUsuario,valorAplicar,valorPoupar,periodo
-                             ,Individual,2000,2500,112
-                             ,Individual,400000,300000,64
-                             ,EmpresaOuAgro,12000000,10000000,128
-simularInvestimentoComaValorAplicadoInvalido,tipoUsuario,valorAplicar,valorPoupar,periodo
-                                            ,Individual,1999,3000,160
-                                            ,Individual,500,5000,128
-                                            ,EmpresaOuAgro,10,2000,32
+simularInvestimentoPoupancaOk,tipoUsuario,valorAplicar,valorPoupar,periodo,Duration(ms)
+"",Individual,2000,2500,112,7474.0
+"",Individual,400000,300000,64,7430.0
+"",EmpresaOuAgro,12000000,10000000,128,7432.0
+simularInvestimentoComaValorAplicadoInvalido,tipoUsuario,valorAplicar,valorPoupar,periodo,Duration(ms)
+"",Individual,1999,3000,160,17877.0
+"",Individual,500,5000,128,17922.0
+"",EmpresaOuAgro,10,2000,32,17833.0
+simularInvestimentoComaValorPoupadoInvalido,tipoUsuario,valorAplicar,valorPoupar,periodo
+"",Individual,2222,199,150
+"",EmpresaOuAgro,5000,50,264
+"",EmpresaOuAgro,100000,200,772
+simularInvestimentoComPeriodoInvalido,tipoUsuario,valorAplicar,valorPoupar,periodo,Duration(ms),Duration(ms),Duration(ms),Duration(ms)
+"",Individual,2222,2000,-5,17901.0,17901.0,17901.0,17901.0
+"",Individual,5000,5000,-10,18010.0,18010.0,18010.0,18010.0
+"",EmpresaOuAgro,100000,5000,0,17817.0,17817.0,17817.0,17817.0

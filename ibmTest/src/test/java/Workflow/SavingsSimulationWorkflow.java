@@ -51,9 +51,10 @@ public class SavingsSimulationWorkflow {
         screenshotArquivo = pathEvidenciasTeste + "\\ibmTesting" + Generators.dateTimeToFile() + "simularInvestimentoPoupanca" + ".png";
         Screenshot.takeScreenshot(driver, screenshotArquivo);
 
-        sip.clickSimulateButton();
-
         try {
+            sip.clickSimulateButton();
+
+
             waitPage.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[3]/div/div/div[1]/div/div[2]")));
             screenshotArquivo = pathEvidenciasTeste + "\\ibmTesting" + Generators.dateTimeToFile() + "simularInvestimentoPoupanca" + ".png";
             Screenshot.takeScreenshot(driver, screenshotArquivo);
